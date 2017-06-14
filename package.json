@@ -1,0 +1,23 @@
+{
+  "name": "jwt-jwe",
+  "version": "0.1.0",
+  "description": "encrypt payload for JWT",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SangHakLee/jwt-jwe.git"
+  },
+  "keywords": [
+    "jwt",
+    "jsonwebtoken"
+  ],
+  "author": "sanghaklee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SangHakLee/jwt-jwe/issues"
+  },
+  "homepage": "https://github.com/SangHakLee/jwt-jwe#readme"
+}
