@@ -4,7 +4,9 @@
   "description": "encrypt payload for JWT",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test/*",
+    "test": "mocha",
+    "cover": "istanbul cover _mocha",
+    "coveralls": "npm run cover -- --report lcovonly && cat ./coverage/lcov.info | coveralls",
     "build": "babel src --out-dir lib --presets es2015"
   },
   "repository": {
@@ -25,8 +27,11 @@
     "babel-cli": "^6.24.1",
     "babel-preset-env": "^1.5.2",
     "babel-preset-es2015": "^6.24.1",
+    "coveralls": "^2.13.1",
     "debug": "^2.6.8",
+    "istanbul": "^0.4.5",
     "mocha": "^3.4.2",
+    "mocha-lcov-reporter": "^1.3.0",
     "standard": "^10.0.2"
   },
   "dependencies": {
