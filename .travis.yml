@@ -1,4 +1,5 @@
 sudo: false
 language: node_js
+before_install: npm i -g mocha
 node_js:
   - stable
