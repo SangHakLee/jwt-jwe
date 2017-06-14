@@ -14,7 +14,7 @@
     "jwt",
     "jsonwebtoken"
   ],
-  "author": "sanghaklee",
+  "author": "sanghakleen <code.ryan.lee@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/SangHakLee/jwt-jwe/issues"
